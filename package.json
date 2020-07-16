@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^1.0.3",
+    "nuxt-typed-vuex": "^0.1.19",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.2"
   }

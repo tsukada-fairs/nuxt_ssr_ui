@@ -407,6 +407,7 @@
 import Vue from 'vue'
 import { Hooper, Slide, Progress as HooperProgress } from 'hooper'
 import 'hooper/dist/hooper.css'
+import { longclick } from 'vue-long-click'
 // import { mapState, mapActions } from 'vuex'
 
 interface InterviewAnswer {
@@ -446,6 +447,9 @@ export default Vue.extend({
       interviewSheet: response
     }
   },
+  // async fetch({$accessor}) {
+  //   await $accessor.interviewSheet.getInterviewSheet()
+  // },
   data(): DataType {
     return {
       page: 1,

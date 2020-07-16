@@ -48,6 +48,7 @@ export default {
   */
   buildModules: [
     '@nuxt/typescript-build',
+    'nuxt-typed-vuex',
   ],
   /*
   ** Nuxt.js modules
@@ -61,7 +62,8 @@ export default {
   */
   build: {
     transpile: [
-      'vee-validate'
+      'vee-validate',
+      /typed-vuex/,
     ]
   }
 }
